@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost_SQLEXPRESS.GOOGLE_PLAY_STORE_APP"
+  DTS:DTSID="{38AB4BCE-51F0-4F21-9146-74D8246932AB}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost\SQLEXPRESS;Initial Catalog=GOOGLE_PLAY_STORE_APP;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-GooglePlay_SSIS-{38AB4BCE-51F0-4F21-9146-74D8246932AB}localhost\SQLEXPRESS.GOOGLE_PLAY_STORE_APP;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

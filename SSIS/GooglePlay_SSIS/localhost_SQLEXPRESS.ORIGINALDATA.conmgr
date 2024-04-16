@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost_SQLEXPRESS.ORIGINALDATA"
+  DTS:DTSID="{5518F93C-A564-49D0-A3D9-E36EAB6F5024}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost\SQLEXPRESS;Initial Catalog=ORIGINALDATA;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-GooglePlay_SSIS-{5518F93C-A564-49D0-A3D9-E36EAB6F5024}localhost\SQLEXPRESS.ORIGINALDATA;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
