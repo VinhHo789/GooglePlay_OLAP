@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet3">
+    <Query>
+      <DataSourceReference>GooglePlay</DataSourceReference>
+      <CommandText>SELECT NON EMPTY { [Measures].[Maximum Installs], [Measures].[Rating] } ON COLUMNS, NON EMPTY { GENERATE([DIM CONTENT RATING].[Content rating].children,[DIM CONTENT RATING].[Content Rating].CURRENTMEMBER * TOPCOUNT([DIM APP].[App Key].Children, 100, [Measures].[Maximum Installs])* [DIM APP].[App Name].children *[DIM APP].[Editors Choice].children * [DIM APP].[Free].children )*[DIM DEVELOPER].[Developer Id].children * [DIM RELEASED DATE].[Released].children*[DIM CATEGORY].[Category].children } DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_VALUE, MEMBER_UNIQUE_NAME ON ROWS FROM [GOOGLE PLAY STORE APP] CELL PROPERTIES VALUE, BACK_COLOR, FORE_COLOR, FORMATTED_VALUE, FORMAT_STRING, FONT_NAME, FONT_SIZE, FONT_FLAGS</CommandText>
+      <rd:DesignerState>
+        <QueryDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/AnalysisServices/QueryDefinition">
+          <CommandType>MDX</CommandType>
+          <Type>Query</Type>
+          <QuerySpecification xsi:type="MDXQuerySpecification">
+            <Select>
+              <Items>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>DIM CONTENT RATING</DimensionName>
+                    <HierarchyName>Content Rating</HierarchyName>
+                    <HierarchyUniqueName>[DIM CONTENT RATING].[Content Rating]</HierarchyUniqueName>
+                    <LevelName>Content Rating</LevelName>
+                    <UniqueName>[DIM CONTENT RATING].[Content Rating].[Content Rating]</UniqueName>
+                  </ID>
+                  <ItemCaption>Content Rating</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                  <MemberValue>true</MemberValue>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>DIM APP</DimensionName>
+                    <HierarchyName>App Key</HierarchyName>
+                    <HierarchyUniqueName>[DIM APP].[App Key]</HierarchyUniqueName>
+                    <LevelName>App Key</LevelName>
+                    <UniqueName>[DIM APP].[App Key].[App Key]</UniqueName>
+                  </ID>
+                  <ItemCaption>App Key</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                  <MemberValue>true</MemberValue>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>DIM APP</DimensionName>
+                    <HierarchyName>App Name</HierarchyName>
+                    <HierarchyUniqueName>[DIM APP].[App Name]</HierarchyUniqueName>
+                    <LevelName>App Name</LevelName>
+                    <UniqueName>[DIM APP].[App Name].[App Name]</UniqueName>
+                  </ID>
+                  <ItemCaption>App Name</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                  <MemberValue>true</MemberValue>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>DIM APP</DimensionName>
+                    <HierarchyName>Editors Choice</HierarchyName>
+                    <HierarchyUniqueName>[DIM APP].[Editors Choice]</HierarchyUniqueName>
+                    <LevelName>Editors Choice</LevelName>
+                    <UniqueName>[DIM APP].[Editors Choice].[Editors Choice]</UniqueName>
+                  </ID>
+                  <ItemCaption>Editors Choice</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                  <MemberValue>true</MemberValue>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>DIM APP</DimensionName>
+                    <HierarchyName>Free</HierarchyName>
+                    <HierarchyUniqueName>[DIM APP].[Free]</HierarchyUniqueName>
+                    <LevelName>Free</LevelName>
+                    <UniqueName>[DIM APP].[Free].[Free]</UniqueName>
+                  </ID>
+                  <ItemCaption>Free</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                  <MemberValue>true</MemberValue>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>DIM DEVELOPER</DimensionName>
+                    <HierarchyName>Developer Id</HierarchyName>
+                    <HierarchyUniqueName>[DIM DEVELOPER].[Developer Id]</HierarchyUniqueName>
+                    <LevelName>Developer Id</LevelName>
+                    <UniqueName>[DIM DEVELOPER].[Developer Id].[Developer Id]</UniqueName>
+                  </ID>
+                  <ItemCaption>Developer Id</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                  <MemberValue>true</MemberValue>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>DIM RELEASED DATE</DimensionName>
+                    <HierarchyName>Released</HierarchyName>
+                    <HierarchyUniqueName>[DIM RELEASED DATE].[Released]</HierarchyUniqueName>
+                    <LevelName>Released</LevelName>
+                    <UniqueName>[DIM RELEASED DATE].[Released].[Released]</UniqueName>
+                  </ID>
+                  <ItemCaption>Released</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                  <MemberValue>true</MemberValue>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>DIM CATEGORY</DimensionName>
+                    <HierarchyName>Category</HierarchyName>
+                    <HierarchyUniqueName>[DIM CATEGORY].[Category]</HierarchyUniqueName>
+                    <LevelName>Category</LevelName>
+                    <UniqueName>[DIM CATEGORY].[Category].[Category]</UniqueName>
+                  </ID>
+                  <ItemCaption>Category</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                  <MemberValue>true</MemberValue>
+                </Item>
+                <Item>
+                  <ID xsi:type="Measure">
+                    <MeasureName>Maximum Installs</MeasureName>
+                    <UniqueName>[Measures].[Maximum Installs]</UniqueName>
+                  </ID>
+                  <ItemCaption>Maximum Installs</ItemCaption>
+                  <BackColor>true</BackColor>
+                  <ForeColor>true</ForeColor>
+                  <FontFamily>true</FontFamily>
+                  <FontSize>true</FontSize>
+                  <FontWeight>true</FontWeight>
+                  <FontStyle>true</FontStyle>
+                  <FontDecoration>true</FontDecoration>
+                  <FormattedValue>true</FormattedValue>
+                  <FormatString>true</FormatString>
+                </Item>
+                <Item>
+                  <ID xsi:type="Measure">
+                    <MeasureName>Rating</MeasureName>
+                    <UniqueName>[Measures].[Rating]</UniqueName>
+                  </ID>
+                  <ItemCaption>Rating</ItemCaption>
+                  <BackColor>true</BackColor>
+                  <ForeColor>true</ForeColor>
+                  <FontFamily>true</FontFamily>
+                  <FontSize>true</FontSize>
+                  <FontWeight>true</FontWeight>
+                  <FontStyle>true</FontStyle>
+                  <FontDecoration>true</FontDecoration>
+                  <FormattedValue>true</FormattedValue>
+                  <FormatString>true</FormatString>
+                </Item>
+              </Items>
+            </Select>
+            <AutoExecute>false</AutoExecute>
+            <From>GOOGLE PLAY STORE APP</From>
+            <Filter>
+              <FilterItems />
+            </Filter>
+            <Calculations />
+            <Aggregates />
+            <QueryProperties />
+          </QuerySpecification>
+          <Query>
+            <Statement>SELECT NON EMPTY { [Measures].[Maximum Installs], [Measures].[Rating] } ON COLUMNS, NON EMPTY { GENERATE([DIM CONTENT RATING].[Content rating].children,[DIM CONTENT RATING].[Content Rating].CURRENTMEMBER * TOPCOUNT([DIM APP].[App Key].Children, 100, [Measures].[Maximum Installs])* [DIM APP].[App Name].children *[DIM APP].[Editors Choice].children * [DIM APP].[Free].children )*[DIM DEVELOPER].[Developer Id].children * [DIM RELEASED DATE].[Released].children*[DIM CATEGORY].[Category].children } DIMENSION PROPERTIES MEMBER_CAPTION, MEMBER_VALUE, MEMBER_UNIQUE_NAME ON ROWS FROM [GOOGLE PLAY STORE APP] CELL PROPERTIES VALUE, BACK_COLOR, FORE_COLOR, FORMATTED_VALUE, FORMAT_STRING, FONT_NAME, FONT_SIZE, FONT_FLAGS</Statement>
+            <ParameterDefinitions />
+          </Query>
+        </QueryDefinition>
+      </rd:DesignerState>
+    </Query>
+    <Fields>
+      <Field Name="Content_Rating">
+        <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Level" UniqueName="[DIM CONTENT RATING].[Content Rating].[Content Rating]" /&gt;</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="App_Key">
+        <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Level" UniqueName="[DIM APP].[App Key].[App Key]" /&gt;</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="App_Name">
+        <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Level" UniqueName="[DIM APP].[App Name].[App Name]" /&gt;</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Editors_Choice">
+        <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Level" UniqueName="[DIM APP].[Editors Choice].[Editors Choice]" /&gt;</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Free">
+        <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Level" UniqueName="[DIM APP].[Free].[Free]" /&gt;</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Developer_Id">
+        <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Level" UniqueName="[DIM DEVELOPER].[Developer Id].[Developer Id]" /&gt;</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Released">
+        <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Level" UniqueName="[DIM RELEASED DATE].[Released].[Released]" /&gt;</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Category">
+        <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Level" UniqueName="[DIM CATEGORY].[Category].[Category]" /&gt;</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Maximum_Installs">
+        <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Measure" UniqueName="[Measures].[Maximum Installs]" /&gt;</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Rating">
+        <DataField>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;Field xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Measure" UniqueName="[Measures].[Rating]" /&gt;</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

@@ -998,7 +998,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="28" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="812" scrolltop="806" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="21881" y="8229" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="28" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="812" scrolltop="806" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="24051" y="13811" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                 </font>
@@ -1086,10 +1086,10 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7694" top="11519" logicalid="21" controlid="8" masterid="0" hint1="0" hint2="0" width="3255" height="3779" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline" left="7694" top="11519" logicalid="21" controlid="8" masterid="0" hint1="0" hint2="0" width="3255" height="3779" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
-                    <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                   </ddsxmlobj>
                 </control>
                 <layoutobject>
@@ -1106,10 +1106,10 @@
                   <point x="7994" y="11819" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7045" top="3920" logicalid="22" controlid="9" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline" left="7045" top="3920" logicalid="22" controlid="9" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
-                    <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                   </ddsxmlobj>
                 </control>
                 <layoutobject>
@@ -1124,10 +1124,10 @@
                   <point x="7444" y="6819" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2720" top="8919" logicalid="23" controlid="10" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="8919" logicalid="23" controlid="10" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
-                    <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                   </ddsxmlobj>
                 </control>
                 <layoutobject>
@@ -1144,10 +1144,10 @@
                   <point x="5420" y="9319" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9168" top="9569" logicalid="24" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="2289" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline" left="9168" top="9569" logicalid="24" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="2289" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
-                    <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                   </ddsxmlobj>
                 </control>
                 <layoutobject>
@@ -1164,10 +1164,10 @@
                   <point x="9468" y="9869" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3821" top="11519" logicalid="25" controlid="12" masterid="0" hint1="0" hint2="0" width="2823" height="3779" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline" left="3821" top="11519" logicalid="25" controlid="12" masterid="0" hint1="0" hint2="0" width="2823" height="3779" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
-                    <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                   </ddsxmlobj>
                 </control>
                 <layoutobject>
@@ -1184,10 +1184,10 @@
                   <point x="6344" y="11819" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9168" top="6780" logicalid="26" controlid="13" masterid="0" hint1="0" hint2="0" width="3000" height="1739" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline" left="9168" top="6780" logicalid="26" controlid="13" masterid="0" hint1="0" hint2="0" width="3000" height="1739" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
-                    <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                   </ddsxmlobj>
                 </control>
                 <layoutobject>
@@ -1569,20 +1569,32 @@
           <Commands>
             <Command>
               <Text>CALCULATE; 
+CREATE DYNAMIC SET CURRENTCUBE.[TopLuotTaiTheoTheLoai]
+ AS GENERATE([DIM CATEGORY].[Category].Children, [DIM CATEGORY].[Category].CURRENTMEMBER*TOPCOUNT([DIM APP].[App Key].Children, 5, [Measures].[Maximum Installs])*[DIM APP].[App Name].children), DISPLAY_FOLDER = 'DIM APP'  ;  
+CREATE MEMBER CURRENTCUBE.[Measures].[TrungBinhDanhGia]
+ AS [Measures].[Rating]/[Measures].[FACT Count], 
+VISIBLE = 1;   
+CREATE MEMBER CURRENTCUBE.[Measures].[TrungBinhGia]
+ AS [Measures].[Price]/[Measures].[FACT Count], 
+VISIBLE = 1;       
 CREATE DYNAMIC SET CURRENTCUBE.[AppLuotTai&gt;100mil&amp;Rating&gt;4.0&amp;RatingCount&gt;1mil]
- AS FILTER(FILTER( FILTER( [DIM APP].[App Key].children, [Measures].[Maximum Installs] &gt; 100000000 ), [Measures].[Rating Count] &gt; 1000000 ) , [Measures].[Rating] &gt; 4.0 );    
+ AS FILTER(FILTER( FILTER( [DIM APP].[App Key].children, [Measures].[Maximum Installs] &gt; 100000000 ), [Measures].[Rating Count] &gt; 1000000 ) , [Measures].[Rating] &gt; 4.0 );          
 CREATE DYNAMIC SET CURRENTCUBE.[Top10LuotTaiCaoNhatTheoQuyNam]
- AS TOPCOUNT( [DIM RELEASED DATE].[ReleasedDateHierarchy].[Quater], 10, [Measures].[FACT Count] );     
+ AS TOPCOUNT( [DIM RELEASED DATE].[ReleasedDateHierarchy].[Quater], 10, [Measures].[FACT Count] );           
  
 CREATE DYNAMIC SET CURRENTCUBE.[Top20LuotTaiCaoNhat]
- AS TOPCOUNT([DIM APP].[App Key].children , 20, [Measures].[Maximum Installs] );    
+ AS TOPCOUNT([DIM APP].[App Key].children , 20, [Measures].[Maximum Installs] );          
 CREATE DYNAMIC SET CURRENTCUBE.[AppCoLuotTaiLonHon100000]
- AS FILTER( [DIM APP].[App Key].children, [Measures].[Maximum Installs] &gt; 100000);    
+ AS FILTER( [DIM APP].[App Key].children, [Measures].[Maximum Installs] &gt; 100000);          
 CREATE MEMBER CURRENTCUBE.[Measures].[DoanhThuTaiApp (USD)]
- AS [Measures].[Price]*[Measures].[Maximum Installs], 
-VISIBLE = 1;    
+ AS ([Measures].[Price]*[Measures].[Maximum Installs]), 
+FORMAT_STRING = "Short Date", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'FACT';     
+CREATE MEMBER CURRENTCUBE.[Measures].[DoanhThu(USD)]
+ AS SUM( [DIM APP].[App Key].children,  [Measures].[DoanhThuTaiApp (USD)]), 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'FACT';          
 CREATE DYNAMIC SET CURRENTCUBE.[Top10DoanhThuBanApp]
- AS TOPCOUNT( [DIM DEVELOPER].[Developer Key].children, 10,[Measures].[DoanhThuTaiApp (USD)] );      
+ AS TOPCOUNT( [DIM DEVELOPER].[Developer Key].children, 10, [Measures].[DoanhThu(USD)]);            
 CREATE DYNAMIC SET CURRENTCUBE.[Top20LuotTai&amp;DanhGiaTren4.0]
  AS TOPCOUNT(
     FILTER(
@@ -1660,49 +1672,35 @@ CREATE DYNAMIC SET CURRENTCUBE.[Top20LuotTai&amp;DanhGiaTren4.0]
           <xs:element name="GOOGLE_x0020_PLAY_x0020_STORE_x0020_APP" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="a68c07cd-100d-4eb6-8552-af72ce6da428">
             <xs:complexType>
               <xs:choice minOccurs="0" maxOccurs="unbounded">
-                <xs:element name="dbo_DIM_APP" msprop:design-time-name="e9ca70af-99dd-4b84-8513-4c13e19362e1" msprop:FriendlyName="DIM_APP" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_APP">
+                <xs:element name="dbo_DIM_APP" msprop:design-time-name="e9ca70af-99dd-4b84-8513-4c13e19362e1" msprop:FriendlyName="DIM_APP" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_APP" msprop:TableType="Table">
                   <xs:complexType>
                     <xs:sequence>
-                      <xs:element name="App_Key" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="App_Key" msprop:DbColumnName="App_Key" msprop:design-time-name="085ca45d-037f-4bdf-8904-8d648dda0ba2" type="xs:int" />
-                      <xs:element name="App_Id" msprop:FriendlyName="App_Id" msprop:DbColumnName="App_Id" msprop:design-time-name="78318cee-ef72-4571-9caa-30e692628b91" minOccurs="0">
+                      <xs:element name="App_Key" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="085ca45d-037f-4bdf-8904-8d648dda0ba2" msprop:DbColumnName="App_Key" msprop:FriendlyName="App_Key" type="xs:int" />
+                      <xs:element name="App_Id" msprop:design-time-name="78318cee-ef72-4571-9caa-30e692628b91" msprop:DbColumnName="App_Id" msprop:FriendlyName="App_Id" minOccurs="0">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
                             <xs:maxLength value="200" />
                           </xs:restriction>
                         </xs:simpleType>
                       </xs:element>
-                      <xs:element name="App_Name" msprop:FriendlyName="App_Name" msprop:DbColumnName="App_Name" msprop:design-time-name="a8265345-ef4a-4489-8cf8-2f921e056989" minOccurs="0">
+                      <xs:element name="App_Name" msprop:design-time-name="a8265345-ef4a-4489-8cf8-2f921e056989" msprop:DbColumnName="App_Name" msprop:FriendlyName="App_Name" minOccurs="0">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
                             <xs:maxLength value="200" />
                           </xs:restriction>
                         </xs:simpleType>
                       </xs:element>
-                      <xs:element name="Minimum_Installs" msprop:FriendlyName="Minimum_Installs" msprop:DbColumnName="Minimum_Installs" msprop:design-time-name="c923ee74-a3b4-45f7-9d6b-ee1c24d5a62d" minOccurs="0">
+                      <xs:element name="Minimum_Installs" msprop:design-time-name="c923ee74-a3b4-45f7-9d6b-ee1c24d5a62d" msprop:DbColumnName="Minimum_Installs" msprop:FriendlyName="Minimum_Installs" minOccurs="0">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
                             <xs:maxLength value="50" />
                           </xs:restriction>
                         </xs:simpleType>
                       </xs:element>
-                      <xs:element name="Free" msprop:FriendlyName="Free" msprop:DbColumnName="Free" msprop:design-time-name="3036e09e-c686-48fb-8147-2ace59fe3eb7" type="xs:boolean" minOccurs="0" />
-                      <xs:element name="Ad_Supported" msprop:FriendlyName="Ad_Supported" msprop:DbColumnName="Ad_Supported" msprop:design-time-name="2bdfe9b4-b3ba-43a6-bac5-be38286dd553" type="xs:boolean" minOccurs="0" />
-                      <xs:element name="In_App_Purchases" msprop:FriendlyName="In_App_Purchases" msprop:DbColumnName="In_App_Purchases" msprop:design-time-name="2e507b85-5705-4d51-b62e-ec3691152315" type="xs:boolean" minOccurs="0" />
-                      <xs:element name="Editors_Choice" msprop:FriendlyName="Editors_Choice" msprop:DbColumnName="Editors_Choice" msprop:design-time-name="a5576139-7035-410d-99fa-c7f04ec7f4c3" minOccurs="0">
-                        <xs:simpleType>
-                          <xs:restriction base="xs:string">
-                            <xs:maxLength value="50" />
-                          </xs:restriction>
-                        </xs:simpleType>
-                      </xs:element>
-                    </xs:sequence>
-                  </xs:complexType>
-                </xs:element>
-                <xs:element name="dbo_DIM_CATEGORY" msprop:design-time-name="56625a3c-8a42-49fe-930c-6400ebcc7fc2" msprop:FriendlyName="DIM_CATEGORY" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_CATEGORY">
-                  <xs:complexType>
-                    <xs:sequence>
-                      <xs:element name="CategoryKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="CategoryKey" msprop:DbColumnName="CategoryKey" msprop:design-time-name="32f0f923-881f-42ad-84b1-c56a6b8daefc" type="xs:int" />
-                      <xs:element name="Category" msprop:FriendlyName="Category" msprop:DbColumnName="Category" msprop:design-time-name="2fffe9ee-b032-4136-841a-f2e0acdd6bde" minOccurs="0">
+                      <xs:element name="Free" msprop:design-time-name="3036e09e-c686-48fb-8147-2ace59fe3eb7" msprop:DbColumnName="Free" msprop:FriendlyName="Free" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="Ad_Supported" msprop:design-time-name="2bdfe9b4-b3ba-43a6-bac5-be38286dd553" msprop:DbColumnName="Ad_Supported" msprop:FriendlyName="Ad_Supported" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="In_App_Purchases" msprop:design-time-name="2e507b85-5705-4d51-b62e-ec3691152315" msprop:DbColumnName="In_App_Purchases" msprop:FriendlyName="In_App_Purchases" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="Editors_Choice" msprop:design-time-name="a5576139-7035-410d-99fa-c7f04ec7f4c3" msprop:DbColumnName="Editors_Choice" msprop:FriendlyName="Editors_Choice" minOccurs="0">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
                             <xs:maxLength value="50" />
@@ -1712,11 +1710,11 @@ CREATE DYNAMIC SET CURRENTCUBE.[Top20LuotTai&amp;DanhGiaTren4.0]
                     </xs:sequence>
                   </xs:complexType>
                 </xs:element>
-                <xs:element name="dbo_DIM_CONTENT_RATING" msprop:design-time-name="8ff8ede2-1056-4df4-9f84-1316668691ea" msprop:FriendlyName="DIM_CONTENT_RATING" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_CONTENT_RATING">
+                <xs:element name="dbo_DIM_CATEGORY" msprop:design-time-name="56625a3c-8a42-49fe-930c-6400ebcc7fc2" msprop:FriendlyName="DIM_CATEGORY" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_CATEGORY" msprop:TableType="Table">
                   <xs:complexType>
                     <xs:sequence>
-                      <xs:element name="Content_Rating_Key" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="Content_Rating_Key" msprop:DbColumnName="Content_Rating_Key" msprop:design-time-name="f87da75f-d2d4-40c9-8fff-5fb797fa4c63" type="xs:int" />
-                      <xs:element name="Content_Rating" msprop:FriendlyName="Content_Rating" msprop:DbColumnName="Content_Rating" msprop:design-time-name="7f3b9021-9e37-4f3e-ab58-1dd9e5dc4098" minOccurs="0">
+                      <xs:element name="CategoryKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="32f0f923-881f-42ad-84b1-c56a6b8daefc" msprop:DbColumnName="CategoryKey" msprop:FriendlyName="CategoryKey" type="xs:int" />
+                      <xs:element name="Category" msprop:design-time-name="2fffe9ee-b032-4136-841a-f2e0acdd6bde" msprop:DbColumnName="Category" msprop:FriendlyName="Category" minOccurs="0">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
                             <xs:maxLength value="50" />
@@ -1726,11 +1724,25 @@ CREATE DYNAMIC SET CURRENTCUBE.[Top20LuotTai&amp;DanhGiaTren4.0]
                     </xs:sequence>
                   </xs:complexType>
                 </xs:element>
-                <xs:element name="dbo_DIM_DEVELOPER" msprop:design-time-name="0af6b7f3-dc96-4a3d-9dd0-0f1ff0260a70" msprop:FriendlyName="DIM_DEVELOPER" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_DEVELOPER">
+                <xs:element name="dbo_DIM_CONTENT_RATING" msprop:design-time-name="8ff8ede2-1056-4df4-9f84-1316668691ea" msprop:FriendlyName="DIM_CONTENT_RATING" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_CONTENT_RATING" msprop:TableType="Table">
                   <xs:complexType>
                     <xs:sequence>
-                      <xs:element name="DeveloperKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="DeveloperKey" msprop:DbColumnName="DeveloperKey" msprop:design-time-name="bf790cc8-b215-4d48-9a57-7b1b316de8f6" type="xs:int" />
-                      <xs:element name="Developer_Id" msprop:FriendlyName="Developer_Id" msprop:DbColumnName="Developer_Id" msprop:design-time-name="7f29a4d3-ec97-42fb-9437-6f41ced03ae1" minOccurs="0">
+                      <xs:element name="Content_Rating_Key" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="f87da75f-d2d4-40c9-8fff-5fb797fa4c63" msprop:DbColumnName="Content_Rating_Key" msprop:FriendlyName="Content_Rating_Key" type="xs:int" />
+                      <xs:element name="Content_Rating" msprop:design-time-name="7f3b9021-9e37-4f3e-ab58-1dd9e5dc4098" msprop:DbColumnName="Content_Rating" msprop:FriendlyName="Content_Rating" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_DIM_DEVELOPER" msprop:design-time-name="0af6b7f3-dc96-4a3d-9dd0-0f1ff0260a70" msprop:FriendlyName="DIM_DEVELOPER" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_DEVELOPER" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="DeveloperKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="bf790cc8-b215-4d48-9a57-7b1b316de8f6" msprop:DbColumnName="DeveloperKey" msprop:FriendlyName="DeveloperKey" type="xs:int" />
+                      <xs:element name="Developer_Id" msprop:design-time-name="7f29a4d3-ec97-42fb-9437-6f41ced03ae1" msprop:DbColumnName="Developer_Id" msprop:FriendlyName="Developer_Id" minOccurs="0">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
                             <xs:maxLength value="100" />
@@ -1740,11 +1752,11 @@ CREATE DYNAMIC SET CURRENTCUBE.[Top20LuotTai&amp;DanhGiaTren4.0]
                     </xs:sequence>
                   </xs:complexType>
                 </xs:element>
-                <xs:element name="dbo_DIM_MINIMUM_ANDROID" msprop:design-time-name="71950fac-8528-4bcd-8168-5dd52302c305" msprop:FriendlyName="DIM_MINIMUM_ANDROID" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_MINIMUM_ANDROID">
+                <xs:element name="dbo_DIM_MINIMUM_ANDROID" msprop:design-time-name="71950fac-8528-4bcd-8168-5dd52302c305" msprop:FriendlyName="DIM_MINIMUM_ANDROID" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_MINIMUM_ANDROID" msprop:TableType="Table">
                   <xs:complexType>
                     <xs:sequence>
-                      <xs:element name="Minimum_Android_Key" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="Minimum_Android_Key" msprop:DbColumnName="Minimum_Android_Key" msprop:design-time-name="9fce86aa-6a7f-4c87-91db-9162e2aecdb9" type="xs:int" />
-                      <xs:element name="Minimum_Android" msprop:FriendlyName="Minimum_Android" msprop:DbColumnName="Minimum_Android" msprop:design-time-name="0ac8e355-aa8e-4d59-87df-9ccb8b1ba9c0" minOccurs="0">
+                      <xs:element name="Minimum_Android_Key" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="9fce86aa-6a7f-4c87-91db-9162e2aecdb9" msprop:DbColumnName="Minimum_Android_Key" msprop:FriendlyName="Minimum_Android_Key" type="xs:int" />
+                      <xs:element name="Minimum_Android" msprop:design-time-name="0ac8e355-aa8e-4d59-87df-9ccb8b1ba9c0" msprop:DbColumnName="Minimum_Android" msprop:FriendlyName="Minimum_Android" minOccurs="0">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
                             <xs:maxLength value="50" />
@@ -1754,31 +1766,31 @@ CREATE DYNAMIC SET CURRENTCUBE.[Top20LuotTai&amp;DanhGiaTren4.0]
                     </xs:sequence>
                   </xs:complexType>
                 </xs:element>
-                <xs:element name="dbo_DIM_RELEASED_DATE" msprop:design-time-name="178c0aa9-0de4-45ba-a0f4-c839bf041694" msprop:FriendlyName="DIM_RELEASED_DATE" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_RELEASED_DATE">
+                <xs:element name="dbo_DIM_RELEASED_DATE" msprop:design-time-name="178c0aa9-0de4-45ba-a0f4-c839bf041694" msprop:FriendlyName="DIM_RELEASED_DATE" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_RELEASED_DATE" msprop:TableType="Table">
                   <xs:complexType>
                     <xs:sequence>
-                      <xs:element name="Released" msprop:FriendlyName="Released" msprop:DbColumnName="Released" msprop:design-time-name="357c7fb1-6251-4d99-8dc3-eb39fbe9f8ca" type="xs:dateTime" />
-                      <xs:element name="Day" msprop:FriendlyName="Day" msprop:DbColumnName="Day" msprop:design-time-name="165e1e46-4506-4ad4-8709-df4635938853" type="xs:int" minOccurs="0" />
-                      <xs:element name="Month" msprop:FriendlyName="Month" msprop:DbColumnName="Month" msprop:design-time-name="aa2ea44e-ae13-4564-98ab-94d2e4c91b24" type="xs:int" minOccurs="0" />
-                      <xs:element name="Quater" msprop:FriendlyName="Quater" msprop:DbColumnName="Quater" msprop:design-time-name="a539a34d-7534-4702-bdd0-3a7ca691f557" type="xs:int" minOccurs="0" />
-                      <xs:element name="Year" msprop:FriendlyName="Year" msprop:DbColumnName="Year" msprop:design-time-name="46e3c083-c353-4f25-8aef-69fbf48bc3b4" type="xs:int" minOccurs="0" />
+                      <xs:element name="Released" msprop:design-time-name="357c7fb1-6251-4d99-8dc3-eb39fbe9f8ca" msprop:DbColumnName="Released" msprop:FriendlyName="Released" type="xs:dateTime" />
+                      <xs:element name="Day" msprop:design-time-name="165e1e46-4506-4ad4-8709-df4635938853" msprop:DbColumnName="Day" msprop:FriendlyName="Day" type="xs:int" minOccurs="0" />
+                      <xs:element name="Month" msprop:design-time-name="aa2ea44e-ae13-4564-98ab-94d2e4c91b24" msprop:DbColumnName="Month" msprop:FriendlyName="Month" type="xs:int" minOccurs="0" />
+                      <xs:element name="Quater" msprop:design-time-name="a539a34d-7534-4702-bdd0-3a7ca691f557" msprop:DbColumnName="Quater" msprop:FriendlyName="Quater" type="xs:int" minOccurs="0" />
+                      <xs:element name="Year" msprop:design-time-name="46e3c083-c353-4f25-8aef-69fbf48bc3b4" msprop:DbColumnName="Year" msprop:FriendlyName="Year" type="xs:int" minOccurs="0" />
                     </xs:sequence>
                   </xs:complexType>
                 </xs:element>
-                <xs:element name="dbo_FACT" msprop:design-time-name="3e710943-e5de-4987-9a32-a9dd9b637a46" msprop:FriendlyName="FACT" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="FACT">
+                <xs:element name="dbo_FACT" msprop:design-time-name="3e710943-e5de-4987-9a32-a9dd9b637a46" msprop:FriendlyName="FACT" msprop:DbSchemaName="dbo" msprop:DbTableName="FACT" msprop:TableType="Table">
                   <xs:complexType>
                     <xs:sequence>
-                      <xs:element name="FACT_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="FACT_ID" msprop:DbColumnName="FACT_ID" msprop:design-time-name="18312f14-01fe-4410-960d-a1fa8229fe48" type="xs:int" />
-                      <xs:element name="App_Key" msprop:FriendlyName="App_Key" msprop:DbColumnName="App_Key" msprop:design-time-name="65acc800-2d5a-4f60-b053-79f502f53783" type="xs:int" minOccurs="0" />
-                      <xs:element name="Category_Key" msprop:FriendlyName="Category_Key" msprop:DbColumnName="Category_Key" msprop:design-time-name="06fe781e-e8fe-47b9-9291-168ad7176a8e" type="xs:int" minOccurs="0" />
-                      <xs:element name="Minimum_Android_Key" msprop:FriendlyName="Minimum_Android_Key" msprop:DbColumnName="Minimum_Android_Key" msprop:design-time-name="bbb7df9b-eda0-4da9-bd17-fd5afc6ff626" type="xs:int" minOccurs="0" />
-                      <xs:element name="Developer_Key" msprop:FriendlyName="Developer_Key" msprop:DbColumnName="Developer_Key" msprop:design-time-name="ce2fe8cd-9ce5-4fcb-a309-18d599b0586d" type="xs:int" minOccurs="0" />
-                      <xs:element name="Content_Rating_Key" msprop:FriendlyName="Content_Rating_Key" msprop:DbColumnName="Content_Rating_Key" msprop:design-time-name="9e94cb8d-c919-498b-8125-fa0e24badea8" type="xs:int" minOccurs="0" />
-                      <xs:element name="Released" msprop:FriendlyName="Released" msprop:DbColumnName="Released" msprop:design-time-name="a7a86e9c-5314-4c1d-9c28-7d41d5a5e887" type="xs:dateTime" minOccurs="0" />
-                      <xs:element name="Rating" msprop:FriendlyName="Rating" msprop:DbColumnName="Rating" msprop:design-time-name="4e8e095f-059f-42bf-8180-cb11d2d4290b" type="xs:double" minOccurs="0" />
-                      <xs:element name="Rating_Count" msprop:FriendlyName="Rating_Count" msprop:DbColumnName="Rating_Count" msprop:design-time-name="88486be8-fa1a-4400-a6c8-7f3702bc3b2e" type="xs:double" minOccurs="0" />
-                      <xs:element name="Maximum_Installs" msprop:FriendlyName="Maximum_Installs" msprop:DbColumnName="Maximum_Installs" msprop:design-time-name="bac46536-092a-4356-8128-5c5221c124be" type="xs:long" minOccurs="0" />
-                      <xs:element name="Price" msprop:FriendlyName="Price" msprop:DbColumnName="Price" msprop:design-time-name="3221333f-068c-4a57-9a36-5e96aef63f39" type="xs:double" minOccurs="0" />
+                      <xs:element name="FACT_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="18312f14-01fe-4410-960d-a1fa8229fe48" msprop:DbColumnName="FACT_ID" msprop:FriendlyName="FACT_ID" type="xs:int" />
+                      <xs:element name="App_Key" msprop:design-time-name="65acc800-2d5a-4f60-b053-79f502f53783" msprop:DbColumnName="App_Key" msprop:FriendlyName="App_Key" type="xs:int" minOccurs="0" />
+                      <xs:element name="Category_Key" msprop:design-time-name="06fe781e-e8fe-47b9-9291-168ad7176a8e" msprop:DbColumnName="Category_Key" msprop:FriendlyName="Category_Key" type="xs:int" minOccurs="0" />
+                      <xs:element name="Minimum_Android_Key" msprop:design-time-name="bbb7df9b-eda0-4da9-bd17-fd5afc6ff626" msprop:DbColumnName="Minimum_Android_Key" msprop:FriendlyName="Minimum_Android_Key" type="xs:int" minOccurs="0" />
+                      <xs:element name="Developer_Key" msprop:design-time-name="ce2fe8cd-9ce5-4fcb-a309-18d599b0586d" msprop:DbColumnName="Developer_Key" msprop:FriendlyName="Developer_Key" type="xs:int" minOccurs="0" />
+                      <xs:element name="Content_Rating_Key" msprop:design-time-name="9e94cb8d-c919-498b-8125-fa0e24badea8" msprop:DbColumnName="Content_Rating_Key" msprop:FriendlyName="Content_Rating_Key" type="xs:int" minOccurs="0" />
+                      <xs:element name="Released" msprop:design-time-name="a7a86e9c-5314-4c1d-9c28-7d41d5a5e887" msprop:DbColumnName="Released" msprop:FriendlyName="Released" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="Rating" msprop:design-time-name="4e8e095f-059f-42bf-8180-cb11d2d4290b" msprop:DbColumnName="Rating" msprop:FriendlyName="Rating" type="xs:double" minOccurs="0" />
+                      <xs:element name="Rating_Count" msprop:design-time-name="88486be8-fa1a-4400-a6c8-7f3702bc3b2e" msprop:DbColumnName="Rating_Count" msprop:FriendlyName="Rating_Count" type="xs:double" minOccurs="0" />
+                      <xs:element name="Maximum_Installs" msprop:design-time-name="bac46536-092a-4356-8128-5c5221c124be" msprop:DbColumnName="Maximum_Installs" msprop:FriendlyName="Maximum_Installs" type="xs:long" minOccurs="0" />
+                      <xs:element name="Price" msprop:design-time-name="3221333f-068c-4a57-9a36-5e96aef63f39" msprop:DbColumnName="Price" msprop:FriendlyName="Price" type="xs:double" minOccurs="0" />
                     </xs:sequence>
                   </xs:complexType>
                 </xs:element>
